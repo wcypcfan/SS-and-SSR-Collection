@@ -1,1 +1,2 @@
-# Latest-SS-and-SSR-client
+# SS-and-SSR-Collection
+仅个人收集，不定时更新
