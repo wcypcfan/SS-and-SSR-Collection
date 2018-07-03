@@ -24,6 +24,10 @@ https://www.sockscap64.com/sstap-enjoy-gaming-enjoy-sstap/
 https://github.com/breakwa11/gfw_whitelist
 
 ### chnrouter
+#### IPIP
+https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt
+
+#### APNIC
 ```bash
 curl 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt
 ```
