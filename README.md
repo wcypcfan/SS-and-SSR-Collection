@@ -1,55 +1,48 @@
 # SS-and-SSR-Collection
 
-酸酸及酸酸乳相关常用资源汇集，仅个人收集向，不定时更新
+常用资源汇集，仅个人收集向
 
 ## App
 
 ### Shadowsocks
 
-| Platform | URL                                                         |
-| -------- | ----------------------------------------------------------- |
-| Windows  | https://github.com/shadowsocks/shadowsocks-windows/releases |
-| MacOS    | https://github.com/shadowsocks/ShadowsocksX-NG/releases     |
-| Android  | https://github.com/shadowsocks/shadowsocks-android/releases |
-| obfs     | https://github.com/shadowsocks/simple-obfs-android/releases |
+| Platform | Releases                                                                                       |
+| -------- | ---------------------------------------------------------------------------------------------- |
+| Windows  | [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows/releases) |
+| MacOS    | [shadowsocks/ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases)         |
+| Android  | [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases) |
+| obfs     | [shadowsocks/simple-obfs-android](https://github.com/shadowsocks/simple-obfs-android/releases) |
 
-### ShadowsocksR
+### ShadowsocksR [协议插件文档](https://github.com/shadowsocksr-backup/shadowsocks-rss/blob/master/ssr.md)
 
-| Platform | URL                                                                  |
-| -------- | -------------------------------------------------------------------- |
-| Windows  | https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases  |
-| MacOS    | https://github.com/shadowsocksr-backup/ShadowsocksX-NG/releases      |
-| Android  | https://github.com/shadowsocksr-backup/shadowsocksr-android/releases |
-
-协议插件文档：https://github.com/shadowsocksr-backup/shadowsocks-rss/blob/master/ssr.md
+| Platform | Releases                                                                                                         |
+| -------- | ---------------------------------------------------------------------------------------------------------------- |
+| Windows  | [shadowsocksr-backup/shadowsocksr-csharp](https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases)   |
+| MacOS    | [shadowsocksr-backup/ShadowsocksX-NG](https://github.com/shadowsocksr-backup/ShadowsocksX-NG/releases)           |
+| Android  | [shadowsocksr-backup/shadowsocksr-android](https://github.com/shadowsocksr-backup/shadowsocksr-android/releases) |
 
 ### SSTap
 
-https://www.sockscap64.com/sstap-enjoy-gaming-enjoy-sstap/
+| Version | Download                                                                                                                                                                        |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.0.9.7 | [Here](https://github.com/Tsuk1ko/SS-and-SSR-Collection/raw/master/SSTap/SSTap-beta-setup-1.0.9.7.zip) / [Official](https://www.sockscap64.com/sstap-enjoy-gaming-enjoy-sstap/) |
+| 1.1.0.1 | [Here](https://github.com/Tsuk1ko/SS-and-SSR-Collection/raw/master/SSTap/SSTap-beta-setup-1.1.0.1.zip)                                                                          |
+
+Rules: [FQrabbit/SSTap-Rule](https://github.com/FQrabbit/SSTap-Rule)
 
 ## Rules
 
-### SSTap
+| Type      | Repositories                                                                        |
+| --------- | ----------------------------------------------------------------------------------- |
+| AutoProxy | [gfwlist/gfwlist](https://github.com/gfwlist/gfwlist)                               |
+| DNSMasq   | [felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list) |
+| PAC       | [breakwa11/gfw_whitelist](https://github.com/breakwa11/gfw_whitelist)               |
 
-https://github.com/FQrabbit/SSTap-Rule
+## CHNRoutes
 
-### GFWList
+### IPIP.NET
 
-https://github.com/gfwlist/gfwlist
-
-### ChinaList
-
-https://github.com/felixonmars/dnsmasq-china-list
-
-### PAC
-
-https://github.com/breakwa11/gfw_whitelist
-
-## chnrouter
-
-### IPIP
-
-https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt
+[17mon/china_ip_list](https://github.com/17mon/china_ip_list)
 
 ### APNIC
 
@@ -59,8 +52,9 @@ curl 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4
 
 ## DNS Server
 
-| Name          | URL                                       |
-| ------------- | ----------------------------------------- |
-| ChinaDNS      | https://github.com/shadowsocks/ChinaDNS   |
-| Pcap DNSProxy | https://github.com/chengr28/Pcap_DNSProxy |
-| overture      | https://github.com/shawn1m/overture       |
+| Repositories                                                                  | Language |
+| ----------------------------------------------------------------------------- | -------- |
+| [shadowsocks/ChinaDNS](https://github.com/shadowsocks/ChinaDNS)               | C        |
+| [shadowsocks/ChinaDNS-Python](https://github.com/shadowsocks/ChinaDNS-Python) | Python   |
+| [chengr28/Pcap_DNSProxy](https://github.com/chengr28/Pcap_DNSProxy)           | C++      |
+| [shawn1m/overture](https://github.com/shawn1m/overture)                       | Go       |
