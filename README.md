@@ -38,6 +38,14 @@ Rules: [FQrabbit/SSTap-Rule](https://github.com/FQrabbit/SSTap-Rule)
 | DNSMasq   | [felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list) |
 | PAC       | [breakwa11/gfw_whitelist](https://github.com/breakwa11/gfw_whitelist)               |
 
+### Get a domain list from gfwlist
+
+From [改华硕[N14U N54U]5G 2G的7620老毛子Padavan固件](https://www.right.com.cn/forum/thread-161324-1-1.html)
+
+```bash
+curl https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt | base64 -d | sort -u | sed '/^$\|@@/d' | sed 's#!.\+##; s#|##g; s#@##g; s#http:\/\/##; s#https:\/\/##;' | sed '/^[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+$/d' | grep '^[0-9a-zA-Z\.-]\+$' | grep '\.' | sed 's#^\.\+##' | sort -u > gfwlist_domain.txt
+```
+
 ## CHNRoutes
 
 ### IPIP.NET
