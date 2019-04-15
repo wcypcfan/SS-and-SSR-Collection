@@ -13,7 +13,9 @@
 | Android  | [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases) |
 | obfs     | [shadowsocks/simple-obfs-android](https://github.com/shadowsocks/simple-obfs-android/releases) |
 
-### ShadowsocksR [协议插件文档](https://github.com/shadowsocksr-backup/shadowsocks-rss/blob/master/ssr.md)
+### ShadowsocksR
+
+[协议插件文档](https://github.com/shadowsocksr-backup/shadowsocks-rss/blob/master/ssr.md)
 
 | Platform | Releases                                                                                                         |
 | -------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -21,12 +23,23 @@
 | MacOS    | [shadowsocksr-backup/ShadowsocksX-NG](https://github.com/shadowsocksr-backup/ShadowsocksX-NG/releases)           |
 | Android  | [shadowsocksr-backup/shadowsocksr-android](https://github.com/shadowsocksr-backup/shadowsocksr-android/releases) |
 
+### ShadowsocksRR
+
+[协议插件文档](https://github.com/shadowsocksrr/shadowsocks-rss/blob/master/ssr.md)
+
+| Platform | Releases                                                                                             |
+| -------- | ---------------------------------------------------------------------------------------------------- |
+| Windows  | [shadowsocksrr/shadowsocksr-csharp](https://github.com/shadowsocksrr/shadowsocksr-csharp/releases)   |
+| Android  | [shadowsocksrr/shadowsocksr-android](https://github.com/shadowsocksrr/shadowsocksr-android/releases) |
+
 ### SSTap
 
-| Version | Download                                                                                                                                                                        |
-| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1.0.9.7 | [Here](https://github.com/Tsuk1ko/SS-and-SSR-Collection/raw/master/SSTap/SSTap-beta-setup-1.0.9.7.zip) / [Official](https://www.sockscap64.com/sstap-enjoy-gaming-enjoy-sstap/) |
-| 1.1.0.1 | [Here](https://github.com/Tsuk1ko/SS-and-SSR-Collection/raw/master/SSTap/SSTap-beta-setup-1.1.0.1.zip)                                                                          |
+[Official website](https://www.sockscap64.com/sstap-enjoy-gaming-enjoy-sstap/)
+
+| Version | Download                                                                                                                       |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 1.0.9.7 | [SSTap-beta-setup-1.0.9.7.zip](https://github.com/Tsuk1ko/SS-and-SSR-Collection/raw/master/SSTap/SSTap-beta-setup-1.0.9.7.zip) |
+| 1.1.0.1 | [SSTap-beta-setup-1.1.0.1.zip](https://github.com/Tsuk1ko/SS-and-SSR-Collection/raw/master/SSTap/SSTap-beta-setup-1.1.0.1.zip) |
 
 Rules: [FQrabbit/SSTap-Rule](https://github.com/FQrabbit/SSTap-Rule)
 
