@@ -1,4 +1,4 @@
-# SS-and-SSR-Collection
+# SS-Collection
 
 常用资源汇集，仅个人收集向
 
