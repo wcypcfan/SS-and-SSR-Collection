@@ -1,4 +1,4 @@
-# SS-and-SSR-Collection
+# SS-Collection
 
 常用资源汇集，仅个人收集向
 
@@ -73,9 +73,10 @@ curl 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4
 
 ## DNS Server
 
-| Repositories                                                                  | Language |
-| ----------------------------------------------------------------------------- | -------- |
-| [shadowsocks/ChinaDNS](https://github.com/shadowsocks/ChinaDNS)               | C        |
-| [shadowsocks/ChinaDNS-Python](https://github.com/shadowsocks/ChinaDNS-Python) | Python   |
-| [chengr28/Pcap_DNSProxy](https://github.com/chengr28/Pcap_DNSProxy)           | C++      |
-| [shawn1m/overture](https://github.com/shawn1m/overture)                       | Go       |
+| Repositories                                                                  | Language | Platform           |
+| ----------------------------------------------------------------------------- | -------- | ------------------ |
+| [shadowsocks/ChinaDNS](https://github.com/shadowsocks/ChinaDNS)               | C        | All                |
+| [shadowsocks/ChinaDNS-Python](https://github.com/shadowsocks/ChinaDNS-Python) | Python   | All                |
+| [chengr28/Pcap_DNSProxy](https://github.com/chengr28/Pcap_DNSProxy)           | C++      | All                |
+| [shawn1m/overture](https://github.com/shawn1m/overture)                       | Go       | All                |
+| [bitbeans/SimpleDnsCrypt](https://github.com/bitbeans/SimpleDnsCrypt)         | C#       | Windows (with GUI) |
